@@ -11,6 +11,7 @@ Follow these steps to set up the environment and run the tests
 First, install the necessary dependencies using the provided requirements file:
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Dependencies
 This project use the **DeepInverse** library. We use its specialized operators and framework to integrate deep learning models with physical inverse problems in computational imaging.
@@ -20,3 +21,4 @@ This project use the **DeepInverse** library. We use its specialized operators a
 To evaluate the acceleration model and the algorithm selection policy for PGD, run the following script:
 ```bash
 python test_algo_selector_pnp_SPC.py
+```
