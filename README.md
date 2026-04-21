@@ -17,7 +17,7 @@ pip install -r requirements.txt
 This project use the **DeepInverse** library. We use its specialized operators and framework to integrate deep learning models with physical inverse problems in computational imaging.
 - **Reference**: [DeepInverse GitHub](https://github.com/deepinv/deepinv)
 
-### 3. Testing the Project
+### 3. Testing
 To evaluate the acceleration model and the algorithm selection policy for PGD, run the following script:
 ```bash
 python test_algo_selector_pnp_SPC.py
