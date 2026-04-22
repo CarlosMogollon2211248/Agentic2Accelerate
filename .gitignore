@@ -1,6 +1,7 @@
 /matrices
 /__pycache__
 /wandb
+/results
 weights
 data
 *.pt
